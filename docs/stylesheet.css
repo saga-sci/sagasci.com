@@ -1,0 +1,106 @@
+/* Sys Admin Style CSS for Saga Scientific */
+/* Toned down from retro: Clean, functional, terminal-inspired with dark theme, monospace fonts, subtle green accents. */
+/* Improved layout: Better spacing, readability; kept table structure but enhanced for modern feel without chaos. */
+/* No heavy animations, just subtle hover effects. Assume no external GIFs needed. */
+
+/* Global resets and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212; /* Dark gray background for sysadmin console vibe */
+  color: #e0e0e0; /* Light gray text for readability */
+  font-family: 'Courier New', monospace; /* Monospace font like terminal */
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Main table styling: Clean borders, subtle shadows */
+table {
+  width: 100%; /* Wider for better layout on modern screens */
+  height: 100vh; /* Full viewport height */
+  border-collapse: collapse;
+  background-color: #1e1e1e; /* Darker panel */
+}
+
+td {
+  padding: 15px; /* More padding for improved spacing */
+  vertical-align: top;
+  border: 1px solid #333; /* Muted gray borders */
+}
+
+td:first-child {
+  width: 200px; /* Wider nav for better usability */
+  background-color: #252525; /* Slightly lighter dark for contrast */
+}
+
+/* Navigation list: Clean, with hover effects */
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #4caf50; /* Green links, sysadmin style */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #81c784; /* Lighter green on hover */
+  text-decoration: underline;
+}
+
+/* Headings: Bold, uppercase for command-line feel */
+h1, h2 {
+  color: #ffffff; /* White for emphasis */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  max-width: 600px; /* Limit line length for readability */
+}
+h1 {
+  font-size: 26px;
+}
+h2 {
+  font-size: 20px;
+}
+
+/* Paragraphs and text: Readable spacing */
+p {
+  margin-bottom: 15px;
+  color: #bdbdbd; /* Softer gray */
+  max-width: 600px; /* Limit line length for readability */
+}
+
+/* Marquee: Toned down to static banner with subtle style */
+marquee {
+  display: block; /* Treat as block */
+  background-color: #333; /* Dark background */
+  padding: 5px;
+  color: #4caf50; /* Green text */
+  font-weight: bold;
+  border-radius: 4px; /* Rounded corners for modern touch */
+}
+
+
+/* HR: Clean divider */
+hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 20px 0;
+}
+
+/* Footer font: Small, aligned */
+font {
+  font-size: 12px;
+  color: #757575; /* Muted gray */
+  display: block;
+  text-align: center;
+}
